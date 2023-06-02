@@ -44,4 +44,10 @@ public class LoginStep {
             lp.ValidReqPass6Char();
         }
     }
+    public void IamLogin(){
+        lp.openLogin();
+        lp.InputEmail("qa.rakamin.jubelio@gmail.com");
+        lp.InputPassword("Jubelio123!");
+        lp.ClickBtnSubmit();
+    }
 }
